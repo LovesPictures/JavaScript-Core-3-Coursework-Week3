@@ -4,7 +4,10 @@ const personOne = {
   favouriteFood: "Spinach",
 };
 
-function introduceYourself(___________________________) {
+let { name, age, favouriteFood } = personOne;
+
+function introduceYourself(personOne) {
+  //works without the param declared -
   console.log(
     `Hello, my name is ${name}. I am ${age} years old and my favourite food is ${favouriteFood}.`
   );
